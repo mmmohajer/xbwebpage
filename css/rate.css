@@ -1,8 +1,8 @@
-table, th, td {
+.tableborder table, .tableborder th, .tableborder td {
   border: 1px solid black;
 }
 
-table {
+.tableborder {
   width: 100%;
   border-collapse: collapse;
   margin: 25px 0;
@@ -11,23 +11,23 @@ table {
   text-align: center;
 }
 
-tr {
+.tableborder tr {
   border-bottom: 1px solid #dddddd;
 }
 
-td {
+.tableborder tr td {
   padding: 12px 15px;
 }
 
-tr:nth-of-type(even) {
+.tableborder tr:nth-of-type(even) {
     background-color: #f3f3f3;
 }
 
-tr:last-of-type {
+.tableborder tr:last-of-type {
     border-bottom: 2px solid #009879;
 }
 
-tr.active-row {
+.tableborder tr.active-row {
     font-weight: bold;
     color: #009879;
 }

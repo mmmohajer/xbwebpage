@@ -235,3 +235,41 @@ input[type=number] {
     font-size: 6px !important;
   }
 }
+
+.mysearchbar {
+    padding: 0.1rem 1rem;
+}
+
+.newsec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.mapimage {
+    width: 50%;
+}
+
+.imgmap {
+    width: 100%;
+    object-fit: cover;
+}
+
+.tableside {
+    width: 40%;
+}
+
+.morgdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.morgbutton {
+    padding: .5rem 1rem;
+    background-color: #3baae0;
+    color: white;
+    border-radius: 5px;
+}
